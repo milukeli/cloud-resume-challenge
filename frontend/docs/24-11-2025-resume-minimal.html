@@ -2,142 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Resume</title>
+  <title>Resume Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
+    body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; margin: 0; padding: 20px; }
     .resume { max-width: 800px; margin: 0 auto; }
-    .note, .contact { text-align: center; margin: 0; }
-    h1 { text-align: center; margin: 6px 0 10px; }
-    h2 { margin-top: 18px; font-size: 14px; text-transform: uppercase; border-bottom: 1px solid #000; }
-    table { width: 100%; border-collapse: collapse; margin-top: 4px; }
-    td { vertical-align: top; }
+    h1, h2 { text-align: center; margin: 6px 0; }
+    h2 { margin-top: 18px; text-transform: uppercase; }
+    .center { text-align: center; }
+    .entry { display: flex; justify-content: space-between; margin-top: 6px; }
+    .right { text-align: right; }
     ul { margin-top: 4px; }
+    @media (max-width: 600px) {
+      .entry { flex-direction: column; }
+      .right { text-align: left; margin-top: 4px; }
+    }
   </style>
 </head>
 <body>
 <div class="resume">
 
-  <p class="note">[To use this template, download a copy of the file. Please do not request edit access.]</p>
+  <p class="center">[To use this template, download a copy of the file. Please do not request edit access.]</p>
   <h1>FirstName LastName</h1>
-  <p class="contact">
+  <p class="center">
     Home or Campus Street Address • City, State Zip • youremail@college.harvard.edu • phone number
   </p>
 
   <!-- Education -->
   <h2>Education</h2>
 
-  <table>
-    <tr>
-      <td>
+  <section>
+    <div class="entry">
+      <div>
         <strong>Harvard University</strong><br>
         Degree, Concentration. GPA [Note: GPA is Optional]<br>
         Thesis [Note: Optional]<br>
         Relevant Coursework: [Note: Optional. Awards and honors can also be listed here.]
-      </td>
-      <td style="text-align:right;">
+      </div>
+      <div class="right">
         Cambridge, MA<br>
         Graduation Date
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
 
-  <table>
-    <tr>
-      <td>
+    <div class="entry">
+      <div>
         <strong>Study Abroad</strong> [Note: If Applicable]<br>
         Study abroad coursework in ______.
-      </td>
-      <td style="text-align:right;">
+      </div>
+      <div class="right">
         City, Country<br>
         Month Year – Month Year
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
 
-  <table>
-    <tr>
-      <td>
+    <div class="entry">
+      <div>
         <strong>High School Name</strong><br>
         [Note: May include GPA, SAT/ACT scores, or academic honors an employer may want to know]
-      </td>
-      <td style="text-align:right;">
+      </div>
+      <div class="right">
         City, State<br>
         Graduation Date
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
+  </section>
 
   <!-- Experience -->
   <h2>Experience</h2>
 
-  <table>
-    <tr>
-      <td>
+  <section>
+    <div class="entry">
+      <div>
         <strong>Organization</strong><br>
         Position Title
-      </td>
-      <td style="text-align:right;">
+      </div>
+      <div class="right">
         City, State (or remote)<br>
         Month Year – Month Year
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
 
-  <ul>
-    <li>Beginning with most recent position, describe your experience, skills, and resulting outcomes in bullet form.</li>
-    <li>Begin each line with an action verb and include details that will help the reader understand your accomplishments, skills, knowledge, abilities, or achievements.</li>
-    <li>Quantify where possible.</li>
-    <li>Do not use personal pronouns; each line should be a phrase rather than a full sentence.</li>
-  </ul>
+    <ul>
+      <li>Beginning with most recent position, describe your experience, skills, and resulting outcomes in bullet form.</li>
+      <li>Begin each line with an action verb and include details that will help the reader understand your accomplishments, skills, knowledge, abilities, or achievements.</li>
+      <li>Quantify where possible.</li>
+      <li>Do not use personal pronouns; each line should be a phrase rather than a full sentence.</li>
+    </ul>
 
-  <table>
-    <tr>
-      <td>
+    <div class="entry">
+      <div>
         <strong>Organization</strong><br>
         Position Title
-      </td>
-      <td style="text-align:right;">
+      </div>
+      <div class="right">
         City, State<br>
         Month Year – Month Year
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
 
-  <ul>
-    <li>With next-most recent position, describe your experience, skills, and resulting outcomes in bullet form.</li>
-    <li>Begin each line with an action verb and include details that will help the reader understand your accomplishments, skills, knowledge, abilities, or achievements.</li>
-    <li>Quantify where possible.</li>
-    <li>Do not use personal pronouns; each line should be a phrase rather than a full sentence.</li>
-  </ul>
+    <ul>
+      <li>With next-most recent position, describe your experience, skills, and resulting outcomes in bullet form.</li>
+      <li>Begin each line with an action verb and include details that will help the reader understand your accomplishments, skills, knowledge, abilities, or achievements.</li>
+      <li>Quantify where possible.</li>
+      <li>Do not use personal pronouns; each line should be a phrase rather than a full sentence.</li>
+    </ul>
+  </section>
 
   <!-- Leadership & Activities -->
   <h2>Leadership &amp; Activities</h2>
 
-  <table>
-    <tr>
-      <td>
+  <section>
+    <div class="entry">
+      <div>
         <strong>Organization</strong><br>
         Role
-      </td>
-      <td style="text-align:right;">
+      </div>
+      <div class="right">
         City, State<br>
         Month Year – Month Year
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
 
-  <ul>
-    <li>This section can be formatted similarly to the Experience section, or you can omit descriptions for activities.</li>
-    <li>If this section is more relevant to the opportunity you are applying for, consider moving this above your Experience section.</li>
-  </ul>
+    <ul>
+      <li>This section can be formatted similarly to the Experience section, or you can omit descriptions for activities.</li>
+      <li>If this section is more relevant to the opportunity you are applying for, consider moving this above your Experience section.</li>
+    </ul>
+  </section>
 
   <!-- Skills & Interests -->
   <h2>Skills &amp; Interests [Note: Optional]</h2>
 
-  <p><strong>Technical:</strong> List computer software and programming languages and your level of fluency</p>
-  <p><strong>Language:</strong> List foreign languages and your level of fluency</p>
-  <p><strong>Laboratory:</strong> List scientific / research lab techniques or tools [If Applicable]</p>
-  <p><strong>Interests:</strong> List activities you enjoy that may spark interview conversation</p>
+  <section>
+    <p><strong>Technical:</strong> List computer software and programming languages and your level of fluency</p>
+    <p><strong>Language:</strong> List foreign languages and your level of fluency</p>
+    <p><strong>Laboratory:</strong> List scientific / research lab techniques or tools [If Applicable]</p>
+    <p><strong>Interests:</strong> List activities you enjoy that may spark interview conversation</p>
+  </section>
 
 </div>
 </body>
