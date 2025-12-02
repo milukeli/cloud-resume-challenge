@@ -31,4 +31,24 @@ This is what the generated HTML page looks like unaltered:
 - UTF8 because it supports most known languages
 - We will be applying mobile styling to our website so we'll include viewport meta tag width=device-width
 - We'll extract styles into its own stylesheet once we're happy with our HTML markup
-- We'll use indentation (2 spaces)
+- We'll use indentation (tab - 4 spaces)
+
+## Serve Static Website Locally
+
+Assuming we have node install we'll use the simple web-server http-server
+
+### Install HTTP server
+```sh
+npm i http-server -g
+```
+
+### Serve Website
+http-server will serve a public folder by default where the command is run
+
+```sh
+cd frontend
+http-server
+```
+
+### Background image
+Used AI to generate an image, due to larger size of initial PNG image in png format, we've resized it and saved it as jpeg (lowering the size by ~90%)  
