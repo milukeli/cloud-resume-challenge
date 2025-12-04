@@ -1,0 +1,270 @@
+import React from "react";
+
+export default function ResumePage() {
+	return (
+		<>
+			<section className="header">
+				<h1>Milos Lukic</h1>
+				<p>
+					Remote village in Montenegro, Europe
+					&bull;
+					<a href="mailto:mlukic@enginet.me">mlukic@enginet.me</a>
+				</p>
+			</section>
+			<section className="summary">
+				<h2>Summary</h2>
+				<p>Network Infrastructure Engineer, System Administrator, and NOC Engineer with 10+ years of diverse experience in various industries</p>
+			</section>
+			<section className="experience">
+				<h2>Experience</h2>
+				<div className="items">
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Ringfree Communications &mdash; Senior Network Engineer</h3>
+							</div>	
+							<div className="details">
+								<div className="location">Charlotte, NC, United States [remote]</div>
+								<div className="duration">Dec 2023 - Present [full-time]</div>
+							</div>
+						</div>
+						<ul>	
+							<li>Configuration of data center LAN/WAN infrastructure with a focus on high availability, performance, and security, using Cisco routers and switches</li>
+							<li>Maintenance of Proxmox virtualization platform and server infrastructure in data centers, as well as DigitalOcean and Vultr cloud</li>
+							<li>Administration of Linux Debian systems, monitoring tools and custom solutions for data backup, replication and migration</li>
+							<li>IT infrastructure documentation (Netbox/Draw.io)</li>
+						</ul>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Upwork Global &mdash; Network Administrator</h3>
+							</div>	
+							<div className="details">
+								<div className="location">San Francisco, CA, United States [remote]</div>
+								<div className="duration">Jul 2023 - Present [freelance]</div>
+							</div>
+						</div>
+						<ul>	
+							<li>Plan, build and maintain IT network infrastructure based primarily on Cisco/Cisco Meraki equipment</li>
+						</ul>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Vega IT &mdash; DevOps Engineer</h3>
+							</div>	
+							<div className="details">
+								<div className="location">Podgorica, Montenegro / Novi Sad, Serbia [hybrid]</div>
+								<div className="duration">Feb 2023 - Dec 2023 [full-time]</div>
+							</div>
+						</div>
+						<ul>	
+							<li>Create docker and docker-compose files, maintain different containerized applications</li>
+							<li>Implement AWS services (VPC, EC2, ELB, Route53, ACM, ECS, ECR)</li>
+							<li>Use Terraform to build/import AWS infrastructure</li>
+						</ul>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Picnic Technologies &mdash; Network Engineer</h3>
+							</div>	
+							<div className="details">
+								<div className="location">Amsterdam, Netherlands [on-site]</div>
+								<div className="duration">Dec 2021 - Feb 2023 [full-time]</div>
+							</div>
+						</div>
+						<ul>	
+							<li>Design and configure WAN and LAN for 20+ remote sites using Cisco and Cisco Meraki equipment</li>
+							<li>Support and improve regional IPVPN network using BGP protocol</li>
+							<li>Assist with improving the reliability, redundancy, security, and fault tolerance of IT infrastructure</li>
+							<li>Maintaining AWS cloud network infrastructure and local data centers in Netherlands, Germany and France</li>
+							<li>Network infrastructure monitoring (Zabbix) and planning/documenting (Netbox, Draw.io)</li>
+							<li>Tracking issues/projects and collaborating through Atlassian suite tools (Jira and Confluence)</li>
+						</ul>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Telenor &mdash; IP Core & Enterprise Network Administrator</h3>
+							</div>	
+							<div className="details">
+								<div className="location">Podgorica, Montenegro [hybrid]</div>
+								<div className="duration">Jul 2019 - Dec 2021 [full-time]</div>
+							</div>
+						</div>
+						<ul>	
+							<li>Responsible for planning, development, and maintenance of enterprise/core IP network in a multi-vendor environment (Cisco, Huawei, Nokia/Alcatel, Fortinet, Checkpoint, ZTE)</li>
+							<li>Configuration of over 100 network devices (routers, switches, firewalls) and related protocols (BGP,OSPF, ISIS, STP, VRRP, HSRP, IPSec…)</li>
+							<li>Automation of simple network administration tasks in Python using Netmiko</li>
+							<li>Troubleshooting and solving local and ISP network-related issues, support CNOC team</li>
+							<li>Administration of network monitoring tools (Cacti & CheckMK)</li>
+						</ul>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Portonovi &mdash; IT Support Specialist</h3>
+							</div>	
+							<div className="details">
+								<div className="location">Herceg Novi, Montenegro [on-site]</div>
+								<div className="duration">Dec 2017 - Jul 2019 [full-time]</div>
+							</div>
+						</div>
+						<ul>
+							<li>IT support for 300+ users</li>	
+							<li>Basic system administration: IT support, User account management (Active Directory, Exchange, Avaya IP Telephony, Aconex, Dropbox, Autodesk, Adobe), User permissions (File server), User data backup (Acronis	Backup Advanced), Ticketing system (Spiceworks), Monitoring (PRTG), Shell scripting</li>
+							<li>Basic network administration: Corporate LAN & WLAN access (Cisco), VPN access (Fortinet)</li>
+							<li>Computer hardware and software procurement and maintaining an equipment inventory list</li>
+							<li>Created and updated IT-related standard operating procedures, guides and other documentation</li>
+						</ul>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Telenor &mdash; Network Operation Center Engineer</h3>
+							</div>	
+							<div className="details">
+								<div className="location">Podgorica, Montenegro [on-site]</div>
+								<div className="duration">Nov 2014 - Aug 2017 [full-time]</div>
+							</div>
+						</div>
+						<ul>	
+							<li>Monitored all Telco services and infrastructure using: ZTE NetNumen (Power, RAN, Core, VAS, Billing) and ZTE HLR agent, Nagios, Cacti, Huawei iManager U2000, NEC PnMSj and Nera Netmaster</li>
+							<li>L1/L2 support for network incidents and customer complaints related to Telco area</li>
+							<li>Managed change and incident tickets via IBM Service Management Tool</li>
+							<li>Continuous alarm handling and fault reporting, coordinating all planned activities and resolution of network incidents and customer complaints with internal departments and subcontractors</li>
+							<li>FM team activities database administration</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section className="skills">
+				<h2>Skills &amp; Interests</h2>
+					<p><strong>Technical tools:</strong> Terraform, Cisco CML, Eve-NG, GNS3, Nmap, Wireshark, SecureCRT, VSCode, Notepad++</p>
+					<p><strong>Language:</strong> English (fluent), German (basic), Serbian/Croatian (native)</p>
+					<p><strong>Interests:</strong> Advanced routing and switching protocols, AWS cloud infrastructure, Python network automation, Monitoring & Observability, Terraform, Ansible, Git, Docker, Kubernetes, ITIL framework</p>							
+			</section>
+			<section className="certifications">
+				<h2>Certifications</h2>
+				<div className="items">
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Cisco Certified Network Professional – ENARSI</h3>
+								<p>Implementing Cisco enterprise advanced routing and services</p>
+							</div>	
+							<div className="details">
+								<div className="duration">May 2027 (Expected)</div>
+							</div>
+						</div>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>CompTIA Linux+</h3>
+								<p>Linux systems administration, CLI, Automation, Security</p>
+							</div>	
+							<div className="details">
+								<div className="duration">Oct 2023</div>
+							</div>
+						</div>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Cisco Certified Specialist - Enterprise Core (CCNP ENCOR)</h3>
+								<p>Implementing and operating Cisco enterprise network core technologies</p>
+							</div>	
+							<div className="details">
+								<div className="duration">Aug 2022</div>
+							</div>
+						</div>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Cisco Certified Network Associate Routing & Switching (CCNA R&S)</h3>
+								<p>Core networking, Routing, Switching, Automation, Security fundamentals</p>
+							</div>	
+							<div className="details">
+								<div className="duration">Nov 2019</div>
+							</div>
+						</div>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Cisco Certified Entry Networking Technician (CCENT)</h3>
+								<p>Networking fundamentals</p>
+							</div>	
+							<div className="details">
+								<div className="duration">Jan 2019</div>
+							</div>
+						</div>
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>CompTIA A+</h3>
+								<p>IT fundamentals, Support, Hardware, OS troubleshooting</p>
+							</div>	
+							<div className="details">
+								<div className="duration">Oct 2017</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className="education">
+				<p></p>
+				<h2>Education</h2>
+				<div className="items">
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Faculty of Electrical Engineering - University of Montenegro</h3>
+								<p>Postgraduate degree in Computer Science</p>
+							</div>	
+							<div className="details">
+								<div className="location">Podgorica, Montenegro</div>
+								<div className="duration">2013 - 2014</div>
+							</div>	
+						</div>  
+					</div>
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Faculty of Electrical Engineering - University of Montenegro</h3>
+								<p>BSc degree in Electronics, Telecommunications and Computer Science</p>
+							</div>	
+							<div className="details">
+								<div className="location">Podgorica, Montenegro</div>
+								<div className="duration">2008 - 2013</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<section className="otherexperience">
+				<p></p>
+				<h2>Other experience</h2>
+				<div className="items">
+					<div className="item">
+						<div className="item_heading">
+							<div className="info">
+								<h3>Various local resorts, hotels, restaurants</h3>
+								<p>Worked as server assistant, waiter, bartender</p>
+							</div>	
+							<div className="details">
+								<div className="location">Ulcinj, Montenegro</div>
+								<div className="duration">2004 - 2010</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</section>
+		</>
+	);
+}

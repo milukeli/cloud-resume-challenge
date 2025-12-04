@@ -52,3 +52,9 @@ http-server
 
 ### Background image
 Used AI to generate an image, due to larger size of initial PNG image in png format, we've resized it and saved it as jpeg (lowering the size by ~90%)  
+
+### Frontend Framework Consideration
+
+- Using React because that's how Andrew's doing it - also it's the most popular javascript framework.
+- Using Vite.js over webpack because our frontend is very simple.
+- Configured React Router V7, used declarative mode due to app being very simple
